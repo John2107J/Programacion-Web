@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="08-TareaResuelta.css">
+</head>
+
+<body>
+    <!--Uso el nombre de un amigo que es dj de electronica como para hacer la pagina-->
+    <form>
+        <h1>THAREON</h1>
+        <h2>Fiesta Electronica</h2><br><br>
+        <p>Confirma tu asistencia con el siguiente formulario</p>
+        <p> Los Campos con * son obligatorios</p><br><br>
+        <!--Nose porque a pesar de poner el required, al hacer submit no indica que debe completar el espacio-->
+        <label for="nombre">Nombre*</label><br>
+        <input type="text" id="nombre" name="nombre" minlength="3" placeholder="Ingrese su Nombre" required><br><br>
+
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" name="email" placeholder="Ingrese su Email" required><br><br>
+
+        <label for="telefono">Telefono</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su Telefono"><br><br>
+
+        <label for="motivo">Entrada*</label><br>
+        <select id="motivo" name="motivo" required>
+            <option selected disabled></option>
+            <option value="VIP">VIP</option>
+            <option value="general">General</option>
+        </select><br><br>
+
+        <label for="edad">Edad*</label><br>
+        <input type="number" id="edad" name="edad" min="18" max="90" required><br><br>
+
+        <!--Puse los input dentro del label porque asi se colorea el punto al clikear el texto-->
+        <label>Elige tu genero<br><br></label>
+
+        <div class="radio">
+            <label>
+                <input type="radio" id="genero" name="genero">Masculino<br><br>
+            </label>
+
+            <label>
+                <input type="radio" id="genero" name="genero">Femenino<br><br>
+            </label>
+
+            <label>
+                <input type="radio" id="genero" name="genero">Prefiero no decirlo<br><br><br>
+            </label>
+        </div>
+
+        
+        <div class="checkbox">
+            <input type="checkbox" id="aceptar" name="aceptar" required>
+            <label for="aceptar">Acepto los terminos y condiciones</label>
+        </div><br>
+
+        <button type="submit">
+            Enviar
+        </button><br>
+    </form>
+</body>
+
+</html>

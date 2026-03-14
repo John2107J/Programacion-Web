@@ -1,0 +1,17 @@
+Como se comunica el back y el front
+Formas: 
+HTTP
+Esto se usa mediante peticion y respuestas
+
+GET
+POST
+PUT
+DELETE
+
+C REATE -> Crear -> POST
+R EAD -> Leer -> GET
+U PDATE -> Actualizar -> PUT
+D ELETE -> Eliminar - DELETE
+
+-------------------------------
+http://www.google.com -> leer (GET del HTML). peticion el GET y responde con un HTML

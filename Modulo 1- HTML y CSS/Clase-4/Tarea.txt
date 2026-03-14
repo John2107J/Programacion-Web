@@ -1,0 +1,15 @@
+Desafio: Mini Landing Page
+
+Se debe crear:
+    -Navbar con flex (listo)
+    -3 tarjetas (listo)
+    -todo responsive
+    -usar:
+        -justify-content (lsito)
+        -align-items (listo)
+        -gap (listo)
+        -flex-direction (listo)
+        -media Query (listo)
+
+
+No se aprobara ninguna tarea que no tenga estos elementos, sobretodo los media query.

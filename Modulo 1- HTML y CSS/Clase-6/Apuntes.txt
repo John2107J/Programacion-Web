@@ -1,0 +1,6 @@
+UX = User Experience
+UI = User Interface
+
+@keyframes son reutilizables, lo llamas como si fuera una funcion
+
+ctrl + a, selecciona tdo el archivo

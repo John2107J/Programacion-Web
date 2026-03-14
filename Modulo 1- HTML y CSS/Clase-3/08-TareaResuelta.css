@@ -1,0 +1,60 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 50px;
+    width: 300px;
+    border: 1px solid beige;
+    margin: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15%;
+}
+
+button {
+    margin: auto;
+    margin-top: 15px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+    box-shadow: -8px 5px 5px gray;
+}
+
+form input {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+select {
+    width: 150px;
+    margin: auto;
+}
+textarea {
+    width: 150px;
+    margin:auto;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+/* Queria hacer un cursor: pointer; sobre los nombres pero no pude implementarlo */
+.radio{
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+
+.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 100px;
+    padding-right: 100px;
+}

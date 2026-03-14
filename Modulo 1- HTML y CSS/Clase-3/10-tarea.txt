@@ -1,0 +1,15 @@
+Formulario para un evento de musica electronica
+
+Diseñar y estilizar un formulario aplicando:
+
+✅ Al menos 3 selectores distintos  (listo)
+
+✅ margin y padding correctamente  (listo)
+
+✅ Botón con hover (listo)
+
+✅ Cambio de tipografía (listo)
+
+✅ border-radius (listo)
+
+✅ box-shadow <- Google google google (listo)

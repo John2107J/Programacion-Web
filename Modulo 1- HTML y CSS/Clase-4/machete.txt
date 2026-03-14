@@ -1,0 +1,13 @@
+DISPLAY FLEX 
+    flex-start → elementos al inicio
+
+    flex-end → elementos al final
+
+    center → elementos centrados
+
+    space-between → espacio entre elementos
+
+    space-around → espacio alrededor
+
+    space-evenly → espacios iguales
+

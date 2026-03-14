@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Nose porque a pesar de poner el required, al hacer submit no indica que debe completar el espacio-->
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" minlength="3" placeholder="Ingrese su Nombre"><br><br>
+    
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Ingrese su Email" required><br><br>
+    
+    <label for="telefono">Telefono</label><br>
+    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su Telefono"><br><br>
+    
+    <label for="motivo">Motivo de Contacto</label><br>
+    <select id="motivo" name="motivo">
+        <option selected></option>/option>
+        <option value="consulta">Consulta</option>
+        <option value="trabajo">Trabajo</option>
+    </select><br><br>
+    
+    <label for="edad">Edad</label><br>
+    <input type="number" id="edad" name="edad" min="16" max="90"><br><br>
+    
+    <label for="genero">Genero</label><br>
+    <input type="radio" id="genero" name="genero">Masculino<br>
+    <input type="radio" id="genero" name="genero">Femenino<br>
+    <input type="radio" id="genero" name="genero">Prefiero no decirlo<br><br>
+    
+    <label for="mensaje">Mensaje</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br><br>
+        <label for="aceptar">Acepto los terminos y condiciones</label><br>
+        <input type="checkbox" id="aceptar" name="aceptar" required><br><br>
+    
+    <button type="submit">
+        Enviar
+    </button><br>
+</body>
+</html>
+
