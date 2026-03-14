@@ -1,0 +1,10 @@
+git add .
+git commit -m "Probando el git"
+git push
+
+| Letra | Significado        |
+| ----- | ------------------ |
+| **U** | conflicto de merge |
+| **M** | archivo modificado |
+| **A** | archivo agregado   |
+| **D** | archivo eliminado  |
