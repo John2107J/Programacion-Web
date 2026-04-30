@@ -21,25 +21,26 @@ Debe estar hecha Mobile-First
 Secciones:
             Navbar
 
-                Logo (texto)
+                Logo (texto) (listo)
 
-                3 links
+                3 links (listo)
 
-                En mobile: vertical
+                En mobile: vertical 
 
-                En desktop: horizontal
-            Hero Section
-                Título
+                En desktop: horizontal 
+
+            Hero Section (listo)
+                Título 
 
                 Párrafo
 
                 Botón
 
                 Imagen (puede ser placeholder)
-            Cada card debe tener:
+
+            Cada card debe tener: (listo)
 
                 Título
-
                 Descripción
 
                 Ícono o emoji

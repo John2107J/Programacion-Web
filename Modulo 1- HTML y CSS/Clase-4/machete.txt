@@ -1,4 +1,6 @@
 DISPLAY FLEX 
+Todo luego del justify-content:
+
     flex-start → elementos al inicio
 
     flex-end → elementos al final
